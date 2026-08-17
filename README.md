@@ -1,5 +1,7 @@
 # SoriTTS Web
 
+공개 사이트: https://lahuman.github.io/sori.tts/
+
 [SoriTTS](https://github.com/lahuman/sori-tts)를 소개하는 공식 랜딩 페이지입니다.
 
 인터넷 연결 없이 Windows PC에서 한국어 음성을 생성하는 SoriTTS의 주요 기능,
