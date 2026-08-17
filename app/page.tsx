@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       <section className="proof-strip" aria-label="제품 요약">
-        <p><strong>11</strong><span>가지 목소리</span></p>
+        <p><strong>10</strong><span>가지 목소리</span></p>
         <p><strong>0.5–2.0×</strong><span>자유로운 속도</span></p>
         <p><strong>10,000</strong><span>자까지 한 번에</span></p>
         <p><strong>0</strong><span>외부 전송</span></p>
