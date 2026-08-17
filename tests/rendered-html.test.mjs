@@ -33,7 +33,8 @@ test("SoriTTS 소개 페이지를 서버에서 렌더링한다", async () => {
   assert.match(html, /목소리는 선명하게/);
   assert.match(html, /Windows용 다운로드/);
   assert.match(html, /https:\/\/github\.com\/lahuman\/sori-tts/);
-  assert.match(html, /https:\/\/lahuman\.github\.io\/sori-tts-web\/og\.png/);
+  assert.match(html, /https:\/\/lahuman\.github\.io\/sori-tts-web\/og-v2\.png/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|SkeletonPreview/);
 });
+
 

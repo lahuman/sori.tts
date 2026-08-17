@@ -13,8 +13,8 @@ export async function generateMetadata(): Promise<Metadata> {
     requestHeaders.get("x-forwarded-proto") ??
     (host?.startsWith("localhost") ? "http" : "https");
   const image = host
-    ? new URL("/og.png", `${protocol}://${host}`)
-    : new URL("https://lahuman.github.io/sori-tts-web/og.png");
+    ? new URL("/og-v2.png", `${protocol}://${host}`)
+    : new URL("https://lahuman.github.io/sori-tts-web/og-v2.png");
 
   return {
     title,
@@ -42,3 +42,4 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     </html>
   );
 }
+
