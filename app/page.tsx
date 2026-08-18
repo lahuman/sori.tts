@@ -152,8 +152,8 @@ export default function Home() {
         <div className="wordmark wordmark-footer"><span className="wordmark-mark">S</span><span>SoriTTS</span></div>
         <p>Supertonic 3 기반 오프라인 한국어 TTS</p>
         <div>
-          <a href={"https://raw.githubusercontent.com/lahuman/sori.tts/blob/main/LICENSE"} target="_blank" rel="noreferrer">라이선스</a>
-          <a href={"https://raw.githubusercontent.com/lahuman/sori.tts/blob/main/MODEL_USE_TERMS.md"} target="_blank" rel="noreferrer">모델 사용 조건</a>
+          <a href={"https://raw.githubusercontent.com/lahuman/sori.tts/refs/heads/main/LICENSE.md"} target="_blank" rel="noreferrer">라이선스</a>
+          <a href={"https://raw.githubusercontent.com/lahuman/sori.tts/refs/heads/main/MODEL_USE_TERMS.md"} target="_blank" rel="noreferrer">모델 사용 조건</a>
         </div>
       </footer>
     </main>
