@@ -1,6 +1,6 @@
 const downloadUrl =
   "https://drive.google.com/file/d/17u1bl_po4bdPFZXihD8jn--BTe3h5WrD/view?usp=drive_link";
-const repositoryUrl = "https://github.com/lahuman/sori-tts";
+
 
 export default function Home() {
   return (
@@ -14,9 +14,6 @@ export default function Home() {
           <a href="#features">기능</a>
           <a href="#samples">음성 샘플</a>
           <a href="#guide">사용법</a>
-          <a className="nav-github" href={repositoryUrl} target="_blank" rel="noreferrer">
-            GitHub <span aria-hidden="true">↗</span>
-          </a>
         </nav>
       </header>
 
@@ -32,9 +29,7 @@ export default function Home() {
             <a className="button button-primary" href={downloadUrl} target="_blank" rel="noreferrer">
               Windows용 다운로드 <span aria-hidden="true">↓</span>
             </a>
-            <a className="button button-secondary" href={repositoryUrl} target="_blank" rel="noreferrer">
-              GitHub에서 보기 <span aria-hidden="true">↗</span>
-            </a>
+
           </div>
           <p className="release-note">v1.0.0 · Windows 10/11 x64 · 무료 오픈소스</p>
         </div>
@@ -120,12 +115,12 @@ export default function Home() {
           <article>
             <div className="sample-meta"><span>01</span><div><strong>남자 목소리 3</strong><small>속도 1.2×</small></div></div>
             {/* eslint-disable-next-line jsx-a11y/media-has-caption -- ponytail: 샘플 원문을 확보하면 VTT 자막 추가. */}
-            <audio controls preload="none" src="https://raw.githubusercontent.com/lahuman/sori-tts/main/sample/sample1.wav">오디오를 재생할 수 없습니다.</audio>
+            <audio controls preload="none" src="https://raw.githubusercontent.com/lahuman/sori.tts/main/public/sample1.wav">오디오를 재생할 수 없습니다.</audio>
           </article>
           <article>
             <div className="sample-meta"><span>02</span><div><strong>남자 목소리 5</strong><small>속도 1.0×</small></div></div>
             {/* eslint-disable-next-line jsx-a11y/media-has-caption -- ponytail: 샘플 원문을 확보하면 VTT 자막 추가. */}
-            <audio controls preload="none" src="https://raw.githubusercontent.com/lahuman/sori-tts/main/sample/sample2.wav">오디오를 재생할 수 없습니다.</audio>
+            <audio controls preload="none" src="https://raw.githubusercontent.com/lahuman/sori.tts/main/publicv/sample2.wav">오디오를 재생할 수 없습니다.</audio>
           </article>
         </div>
       </section>
@@ -157,9 +152,8 @@ export default function Home() {
         <div className="wordmark wordmark-footer"><span className="wordmark-mark">S</span><span>SoriTTS</span></div>
         <p>Supertonic 3 기반 오프라인 한국어 TTS</p>
         <div>
-          <a href={repositoryUrl + "/blob/main/LICENSE"} target="_blank" rel="noreferrer">라이선스</a>
-          <a href={repositoryUrl + "/blob/main/MODEL_USE_TERMS.md"} target="_blank" rel="noreferrer">모델 사용 조건</a>
-          <a href={repositoryUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href={"https://raw.githubusercontent.com/lahuman/sori.tts/blob/main/LICENSE"} target="_blank" rel="noreferrer">라이선스</a>
+          <a href={"https://raw.githubusercontent.com/lahuman/sori.tts/blob/main/MODEL_USE_TERMS.md"} target="_blank" rel="noreferrer">모델 사용 조건</a>
         </div>
       </footer>
     </main>
