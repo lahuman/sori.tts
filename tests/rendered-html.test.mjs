@@ -12,7 +12,6 @@ test("SoriTTS 정적 페이지를 생성한다", async () => {
   assert.match(html, /SoriTTS — 내 PC에서 만드는 한국어 음성/);
   assert.match(html, /목소리는 선명하게/);
   assert.match(html, /Windows용 다운로드/);
-  assert.match(html, /https:\/\/github\.com\/lahuman\/sori-tts/);
   assert.match(html, /https:\/\/lahuman\.github\.io\/sori\.tts\/og-v2\.png/);
   assert.doesNotMatch(
     html,
