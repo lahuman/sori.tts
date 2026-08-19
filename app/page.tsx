@@ -120,7 +120,7 @@ export default function Home() {
           <article>
             <div className="sample-meta"><span>02</span><div><strong>남자 목소리 5</strong><small>속도 1.0×</small></div></div>
             {/* eslint-disable-next-line jsx-a11y/media-has-caption -- ponytail: 샘플 원문을 확보하면 VTT 자막 추가. */}
-            <audio controls preload="none" src="https://raw.githubusercontent.com/lahuman/sori.tts/main/publicv/sample2.wav">오디오를 재생할 수 없습니다.</audio>
+            <audio controls preload="none" src="https://raw.githubusercontent.com/lahuman/sori.tts/main/public/sample2.wav">오디오를 재생할 수 없습니다.</audio>
           </article>
         </div>
       </section>
