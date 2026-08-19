@@ -123,8 +123,8 @@ export default function Home() {
                 <i key={index} style={{ height }} />
               ))}
             </div>
-            <h3>골라 쓰는 11개 음성</h3>
-            <p>여성 5개, 남성 5개, 특별 남성 1개 음성과 0.5×부터 2.0×까지 속도 조절을 제공합니다.</p>
+            <h3>골라 쓰는 10개 음성</h3>
+            <p>여성 5개, 남성 5개 음성과 0.5×부터 2.0×까지 속도 조절을 제공합니다.</p>
           </article>
           <article className="feature feature-light">
             <span className="feature-number">03</span>
