@@ -1,5 +1,7 @@
-const downloadUrl =
+const soriTtsDownloadUrl =
   "https://drive.google.com/file/d/17u1bl_po4bdPFZXihD8jn--BTe3h5WrD/view?usp=drive_link";
+const soriTtsLiveDownloadUrl =
+  "https://drive.google.com/file/d/1gJ2VFUbArPK9wpmbp7xR5NBdUsTDKksF/view?usp=drive_link"; 
 
 
 export default function Home() {
@@ -23,13 +25,16 @@ export default function Home() {
           <h1>목소리는 선명하게.<br /><em>데이터는 조용하게.</em></h1>
           <p className="hero-description">
             텍스트를 서버에 보내지 않고, 내 PC에서 바로 한국어 음성을 만드세요.
-            로그인도 인터넷도 필요 없습니다.
+            로그인도 인터넷도 필요 없습니다.<br />
+            빠르고 가볍게, 실시간으로 음성을 들어야 한다면 <strong>SoriTTS-Live</strong>를 사용해 보세요.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href={downloadUrl} target="_blank" rel="noreferrer">
-              Windows용 다운로드 <span aria-hidden="true">↓</span>
+            <a className="button button-primary" href={soriTtsDownloadUrl} target="_blank" rel="noreferrer">
+              SoriTTS 다운로드 <span aria-hidden="true">↓</span>
             </a>
-
+            <a className="button button-secondary" href={soriTtsLiveDownloadUrl} target="_blank" rel="noreferrer">
+              SoriTTS-Live 다운로드 <span aria-hidden="true">↓</span>
+            </a>
           </div>
           <p className="release-note">v1.0.0 · Windows 10/11 x64 · 무료 오픈소스</p>
         </div>
@@ -70,6 +75,33 @@ export default function Home() {
         <p><strong>0.5–2.0×</strong><span>자유로운 속도</span></p>
         <p><strong>10,000</strong><span>자까지 한 번에</span></p>
         <p><strong>0</strong><span>외부 전송</span></p>
+      </section>
+
+      <section className="section versions" id="versions">
+        <div className="section-heading">
+          <p className="eyebrow"><span /> TWO VERSIONS</p>
+          <h2>목적에 맞게<br />선택하세요.</h2>
+        </div>
+        <div className="compare-grid">
+          <article className="feature feature-dark">
+            <h3>SoriTTS <span>Standard</span></h3>
+            <p>텍스트를 고음질 오디오 파일로 변환하고 저장하는 데 최적화되어 있습니다.</p>
+            <ul className="compare-list">
+              <li><strong>파일 저장:</strong> 완성된 WAV 오디오 파일 생성</li>
+              <li><strong>대용량 처리:</strong> 한 번에 최대 10,000자까지 변환 가능</li>
+              <li><strong>추천 대상:</strong> 영상 편집자, 팟캐스트/오디오북 제작자</li>
+            </ul>
+          </article>
+          <article className="feature feature-lime">
+            <h3>SoriTTS <span>Live</span></h3>
+            <p>파일 저장 과정 없이 즉각적으로 텍스트를 스트리밍하여 바로 듣습니다.</p>
+            <ul className="compare-list">
+              <li><strong>실시간 재생:</strong> 텍스트 입력과 동시에 즉시 오디오 재생</li>
+              <li><strong>다운로드 생략:</strong> 번거로운 파일 관리 없이 빠르고 가볍게 구동</li>
+              <li><strong>추천 대상:</strong> 화면 낭독이 필요한 분, 실시간 빠른 확인용</li>
+            </ul>
+          </article>
+        </div>
       </section>
 
       <section className="section features" id="features">
@@ -144,7 +176,10 @@ export default function Home() {
         </div>
         <div className="closing-action">
           <p>클라우드 대기 시간도, 계정 생성도 없이<br />지금 바로 음성을 만들어 보세요.</p>
-          <a className="button button-lime" href={downloadUrl} target="_blank" rel="noreferrer">SoriTTS 무료 다운로드 <span aria-hidden="true">↓</span></a>
+          <div className="hero-actions">
+            <a className="button button-lime" href={soriTtsDownloadUrl} target="_blank" rel="noreferrer">SoriTTS 다운로드 <span aria-hidden="true">↓</span></a>
+            <a className="button button-outline-light" href={soriTtsLiveDownloadUrl} target="_blank" rel="noreferrer">SoriTTS-Live 다운로드 <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
       </section>
 
